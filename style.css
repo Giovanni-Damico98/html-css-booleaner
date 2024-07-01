@@ -32,3 +32,14 @@ h1 {
     font-size: 60px;
     color: #9E9087;
 }
+
+#tim-1,
+#tim-2 {
+    width: 49%;
+    height: 1480px;
+    margin-right: 10px;
+}
+
+#descrizione-foto {
+    font-size: 45px;
+}
