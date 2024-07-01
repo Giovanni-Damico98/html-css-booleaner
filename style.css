@@ -21,7 +21,6 @@ header {
 
 #logo {
     height: 60%;
-
 }
 
 h1 {
@@ -33,12 +32,8 @@ h4 {
     font-size: 58px;
     margin-top: 50px;
     font-family: Arial, sans-serif;
-
 }
 
-#text-2 {
-    margin-top: 530px;
-}
 
 #crediti {
     font-size: 60px;
@@ -52,10 +47,6 @@ h4 {
     margin-right: 10px;
 }
 
-#graph-pic {
-    height: 600px;
-    margin-top: 20px;
-}
 
 #monitor-pic {
     height: 600px;
@@ -71,12 +62,11 @@ h4 {
     font-size: 58px;
     margin-top: 50px;
     font-family: Arial, sans-serif;
-
 }
 
 #lista-1 {
     padding-left: 64px;
-    font-size: 58px;
+    font-size: 55px;
     margin-top: 50px;
     font-family: Arial, sans-serif;
 }
@@ -86,18 +76,20 @@ h4 {
     text-align: left;
     font-size: 55px;
     width: 100%;
-
 }
 
 #intestazione-tabella {
     background-color: #20A9E5;
     height: 90px;
+    color: white;
 }
 
-#th-1,
-#th-2,
-#th-3 {
-    color: white;
+.p25 {
+    width: 25%;
+}
+
+.p50 {
+    width: 50%;
 }
 
 #table-row-1,
@@ -105,17 +97,31 @@ h4 {
     background-color: #B1E5F2;
 }
 
-.container {
-    position: relative;
 
+.graph-pic {
+    margin-top: 35px;
+    height: 600px;
+    background: url("img/graph.jpg");
+    width: 900px;
+    background-size: cover;
+    padding: 20px 0 0 20px;
 }
 
-.overlay {
-    position: absolute;
-    font-size: 50px;
-    top: 20px;
-    padding: 20px;
-    text-align: left;
-    color: white;
+.monitor-pic {
+    margin-top: 50px;
+    height: 600px;
+    background: url("img/monitor.jpg");
+    width: 900px;
+    background-size: cover;
+    padding: 20px 0 0 20px;
+}
 
+.graph-pic p {
+    font-size: 80px;
+    color: white;
+}
+
+.monitor-pic p {
+    font-size: 80px;
+    color: white;
 }
