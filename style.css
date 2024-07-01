@@ -28,6 +28,14 @@ h1 {
     font-size: 135px;
 }
 
+h4 {
+    color: #898D98;
+    font-size: 58px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+
+}
+
 #crediti {
     font-size: 60px;
     color: #9E9087;
@@ -44,15 +52,41 @@ h1 {
     font-size: 45px;
 }
 
-#argomento-1 {
+#argomento-1,
+#argomento-2 {
+    font-size: 58px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+
+}
+
+#lista-1 {
+    padding-left: 64px;
     font-size: 58px;
     margin-top: 50px;
     font-family: Arial, sans-serif;
 }
 
-#lista1 {
-    padding-left: 64px;
-    font-size: 58px;
+#tabella-1 {
     margin-top: 50px;
-    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: 55px;
+    width: 100%;
+
+}
+
+#intestazione-tabella {
+    background-color: #20A9E5;
+    height: 90px;
+}
+
+#th-1,
+#th-2,
+#th-3 {
+    color: white;
+}
+
+#table-row-1,
+#table-row-3 {
+    background-color: #B1E5F2;
 }
