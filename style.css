@@ -36,6 +36,10 @@ h4 {
 
 }
 
+#text-2 {
+    margin-top: 530px;
+}
+
 #crediti {
     font-size: 60px;
     color: #9E9087;
@@ -46,6 +50,16 @@ h4 {
     width: 49%;
     height: 1480px;
     margin-right: 10px;
+}
+
+#graph-pic {
+    height: 600px;
+    margin-top: 20px;
+}
+
+#monitor-pic {
+    height: 600px;
+    margin-top: 20px;
 }
 
 #descrizione-foto {
@@ -89,4 +103,19 @@ h4 {
 #table-row-1,
 #table-row-3 {
     background-color: #B1E5F2;
+}
+
+.container {
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    font-size: 50px;
+    top: 20px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+
 }
