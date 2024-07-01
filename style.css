@@ -43,3 +43,16 @@ h1 {
 #descrizione-foto {
     font-size: 45px;
 }
+
+#argomento-1 {
+    font-size: 58px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+#lista1 {
+    padding-left: 64px;
+    font-size: 58px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
